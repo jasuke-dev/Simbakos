@@ -1,0 +1,130 @@
+
+.transfer{
+    width: 70%;
+}
+.judul{
+    text-align: center;
+    margin: 40px;
+}
+.foto-pegawai{
+    width: 80%;
+    align-items: center;
+}
+.foto-update{
+    width: 90%;
+    align-items: center;
+}
+html{
+    position: relative;
+}
+body{
+    margin-bottom: 100px;
+    
+}
+.tabel hr{
+    width: 300px;
+}
+.tabel h2{
+    padding-top: 25px;
+}
+.layanan a{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+nav a,ul{
+    padding-left: 50px;
+}
+nav{
+    background: rgb(137,46,221);
+    background: linear-gradient(90deg, rgba(137,46,221,1) 13%, rgba(207,98,246,1) 46%, rgba(246,244,244,1) 96%);
+}
+body hr{
+    width: 350px;
+    border-top: 4px solid rgb(234, 0, 255)
+}
+section hr{
+    width: 1250px;
+    border-top: 4px solid rgb(234, 0, 255)
+        
+    
+    
+}
+
+h2{
+    color:rgba(137,46,221,1);
+    padding-bottom: 20px;
+}
+
+section{
+    min-height: 1000px;
+}
+
+/* .pkiri ,.pkanan {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+.pkanan{
+    transform: translate(50px,0);
+}
+
+.pkiri.pmuncul, .pkanan.pmuncul{
+    opacity: 1;
+    transform: translate(0,0);
+} */
+
+
+footer{
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background: rgb(246,244,244);
+    background: linear-gradient(90deg, rgba(246,244,244,1) 0%, rgba(207,98,246,1) 46%, rgba(111,6,247,1) 75%);
+}
+
+footer p{
+    padding-top: 30px;
+    color: #eee;
+    font-size: 0.9em;
+}
+
+#box{
+    width: 500px;
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+#box h1{
+    color: #333;
+}
+.konfirmasi{
+    font-size: 18px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #3498db;
+    display: inline-block;
+    border-radius: 8px;
+}
+#box .batal{
+    font-size: 18px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #ff0000;
+    display: inline-block;
+    border-radius: 4px;
+}
+.blur{
+    filter: blur(0px);
+}
